@@ -41,27 +41,11 @@ Ingestion-Api-Analytics-Task/
 ### 🧩 Task 1: Data Ingestion & Processing
 In ingestion.py, this script reads machine data every 10 seconds from a mocked endpoint or JSON file, computes a moving average over the last 5 readings, and displays the results in JSON format.
 
-Contributing 🤝
+## Contributing 🤝
 We welcome contributions from the community! Your input helps make this project better for everyone. To contribute, please follow these steps:
+- Create a Pull Request: Go to the original repository and click the “New Pull Request” button. 
+- Provide a detailed description of your changes and submit your pull request.
 
-Fork the Repository: Click the “Fork” button in the top right corner of the repository page to create your own copy of the project.
-Clone Your Fork: Download your fork to your local machine using:
-```
-git clone https://github.com/your-username/machine-data-processing.git
-Create a Branch: Navigate to the project directory and create a new branch for your feature or bug fix:
-
-git checkout -b feature-name
-Make Your Changes: Implement your changes and ensure your code follows the existing style and structure.
-Commit Your Changes: Stage your changes and commit them with a clear message:
-
-git add .
-git commit -m "Add a brief description of your changes"
-Push to Your Fork: Push your changes back to your fork on GitHub:
-
-git push origin feature-name
-
-```
-Create a Pull Request: Go to the original repository and click the “New Pull Request” button. Provide a detailed description of your changes and submit your pull request.
 Thank you for considering contributing to this project! Your efforts are greatly appreciated! 🌟
 
 ## License 📄
@@ -72,7 +56,7 @@ If you have any questions, issues, or suggestions regarding this project, feel f
 
 - Open an Issue: If you encounter bugs or have feature requests, please open an issue in the GitHub repository.
 - Discussion Forum: Join our Discussion Forum to engage with the community and share ideas.
-- Contact Us: You can also reach me directly at your-email@example.com for any specific inquiries.
+- Contact Us: You can also reach me directly at deepakgangwani512@gmail.com for any specific inquiries.
   
 #### Your feedback is valuable and helps us improve! Thank you for your support! ❤️
 
