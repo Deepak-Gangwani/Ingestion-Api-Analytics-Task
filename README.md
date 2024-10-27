@@ -177,7 +177,7 @@ The deque in this code is crucial for managing the last few readings of temperat
 #### Description:
 In this final task, a Python function is implemented to perform data analytics on the machine data. The function reads a list of timestamps and values (e.g., machine speed) and calculates various statistics.
 
-![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
+![images](https://github.com/user-attachments/assets/63adfb89-9fde-4077-a2c8-66427d343b0e)
 
 ##### Calculations:
 - Average Value: Computes the average of the collected data over the entire period.
@@ -207,7 +207,7 @@ After processing the machine data with the ingestion script, you can run the ana
     -- Minimum Value: The lowest value recorded in the dataset.
     -- Anomalies: Any readings that deviate by more than 20% from the average value will be identified and displayed, based on the values you provide.
 
-
+![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
   
 ##### Example Output
 You can expect the output to look something like this in terminal while running the file:
@@ -244,8 +244,5 @@ If you have any questions, issues, or suggestions regarding this project, feel f
 ![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
 ![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
 ![images](https://github.com/user-attachments/assets/63adfb89-9fde-4077-a2c8-66427d343b0e)
-![fc71635c7f1b09ed30413f59bb749582](https://github.com/user-attachments/assets/3f9ca90e-187e-456a-8d66-d63b51aff854)
-![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
-![1_ebmDMPXU9xqgwqdob0XbKQ](https://github.com/user-attachments/assets/636600f8-ae06-4abc-82ba-1fab62e5777e)
-![1_ebmDMPXU9xqgwqdob0XbKQ-ezgif com-crop](https://github.com/user-attachments/assets/b0ff241a-9e49-4a05-b4ad-26a294fb7125)
+
 
