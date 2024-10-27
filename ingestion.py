@@ -6,26 +6,26 @@ import requests  # Import requests for HTTP POST
 
 
 class MachineDataSimulator:
-    def __init__(self, api_url, status_url, window_size=5):
+    def __init__(self, api_url, status_url, window_size=5, data_file='data.json'):
         # Initialize parameters
         self.api_url = api_url
         self.status_url = status_url
         self.window_size = window_size
         self.temperature_data = deque(maxlen=self.window_size)
         self.speed_data = deque(maxlen=self.window_size)
-        self.machine_data = self._create_sample_data()
+        self.machine_data = self.load_sample_data(data_file)
 
-    def _create_sample_data(self):
-        """Create sample machine data for simulation."""
-        return [
-            {"timestamp": "2024-10-27T12:00:00", "temperature": 70, "speed": 30, "status": "RUNNING"},
-            {"timestamp": "2024-10-27T12:00:10", "temperature": 72, "speed": 32, "status": "RUNNING"},
-            {"timestamp": "2024-10-27T12:00:20", "temperature": 75, "speed": 34, "status": "RUNNING"},
-            {"timestamp": "2024-10-27T12:00:30", "temperature": 71, "speed": 29, "status": "RUNNING"},
-            {"timestamp": "2024-10-27T12:00:40", "temperature": 74, "speed": 33, "status": "RUNNING"},
-            {"timestamp": "2024-10-27T12:00:50", "temperature": 76, "speed": 35, "status": "RUNNING"},
-            {"timestamp": "2024-10-27T12:01:00", "temperature": 78, "speed": 36, "status": "RUNNING"},
-        ]
+    def load_sample_data(self, data_file):
+        """Load sample machine data from a JSON file."""
+        try:
+            with open(data_file, 'r') as file:
+                return json.load(file)
+        except FileNotFoundError:
+            print(f"Error: The file {data_file} was not found.")
+            return []
+        except json.JSONDecodeError:
+            print("Error: The file contains invalid JSON.")
+            return []
 
     def calculate_moving_average(self, data_stream):
         """Calculate moving average for temperature and speed."""
