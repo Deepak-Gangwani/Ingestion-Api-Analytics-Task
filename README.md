@@ -37,4 +37,4 @@ Ingestion-Api-Analytics-Task/
 ## 📝 Project Implementation
 
 ### 🧩 Task 1: Data Ingestion & Processing
-In data_ingestion.py, this script reads machine data every 10 seconds from a mocked endpoint or JSON file, computes a moving average over the last 5 readings, and displays the results in JSON format.
+In ingestion.py, this script reads machine data every 10 seconds from a mocked endpoint or JSON file, computes a moving average over the last 5 readings, and displays the results in JSON format.
