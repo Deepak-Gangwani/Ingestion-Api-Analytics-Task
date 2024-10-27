@@ -95,7 +95,69 @@ If time permits, the candidate can extend the function to detect anomalies—spe
 - Accuracy of calculations to ensure reliable data analytics.
 - Code efficiency and readability to facilitate future modifications.
 - Bonus points awarded for implementing anomaly detection, adding extra value to the solution.
+
+# 🛠️ Procedure to Run the Project of project of Task-1 and Task-2
+#### Prerequisites
+Before you begin, ensure you have the following installed on your local machine:
+- Python 3.x: Make sure you have Python installed. You can download it from the official Python website.
+- pip: This package manager for Python should come with the Python installation.
+- Flask: A web framework for building the REST API. You can install it using pip.
   
+#### Step-by-Step Instructions
+- Clone the Repository: Clone this repository to your local machine using the following command:
+```
+git clone https://github.com/Deepak-Gangwani/Ingestion-Api-Analytics-Task.git
+
+```
+
+- Navigate to the Project Directory: Change your working directory to the project folder:
+```
+cd Ingestion-Api-Analytics-Task
+
+```
+
+- Install Required Packages: Use pip to install the necessary Python packages. Make sure you're in the project directory:
+```
+pip install -r requirements.txt
+
+```
+- Create the Sample Data File: Ensure you have a data.json file in the project directory. This file should contain the simulated machine data. You can create it with the following sample content:
+```
+[
+    {"timestamp": "2024-10-27T12:00:00", "temperature": 70, "speed": 30, "status": "RUNNING"},
+    {"timestamp": "2024-10-27T12:00:10", "temperature": 72, "speed": 32, "status": "RUNNING"},
+    {"timestamp": "2024-10-27T12:00:20", "temperature": 75, "speed": 34, "status": "RUNNING"},
+    {"timestamp": "2024-10-27T12:00:30", "temperature": 71, "speed": 29, "status": "RUNNING"},
+    {"timestamp": "2024-10-27T12:00:40", "temperature": 74, "speed": 33, "status": "RUNNING"},
+    {"timestamp": "2024-10-27T12:00:50", "temperature": 76, "speed": 35, "status": "RUNNING"},
+    {"timestamp": "2024-10-27T12:01:00", "temperature": 78, "speed": 36, "status": "RUNNING"}
+]
+
+```
+
+- Run the Flask API: Open a new terminal window and navigate to the project directory. Start the Flask server with the following command:
+
+```
+  python app.py
+```
+ (Replace app.py with the name of your Flask application file if it differs.)
+
+- Run the Data Ingestion Script: In another terminal window (keeping the Flask server running), navigate to the project directory again and execute the ingestion script:
+```
+  python ingestion.py
+
+```
+- View the Output: As the ingestion script runs, it will read the data from the data.json file, compute the moving averages, and send the data to the Flask API. You should see the calculated moving averages printed in the terminal and the responses from the API.
+
+#### Troubleshooting
+- If you encounter any errors: Check that all dependencies are installed and that the data.json file is correctly formatted.
+- Ensure Flask is running before executing the ingestion script to avoid connection errors.
+
+```
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/data
+http://127.0.0.1:5000/status
+```
 ![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
 ![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
 ![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
