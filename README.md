@@ -44,25 +44,31 @@ Ingestion-Api-Analytics-Task/
 #### Description:
 In this task, a Python script is developed to simulate the continuous stream of machine data (including parameters such as temperature, speed, and status). The script is designed to read this data every 10 seconds from a specified JSON file or a mocked endpoint.
 
+![1_ebmDMPXU9xqgwqdob0XbKQ-ezgif com-crop](https://github.com/user-attachments/assets/b0ff241a-9e49-4a05-b4ad-26a294fb7125)
+
 ###### Key Features:
 - Data Reading: The script reads machine data at regular intervals (every 10 seconds).
 - Data Transformation: It calculates a moving average for each parameter over the last five readings, providing insights into the machine's performance.
 - Output Format: The transformed data is printed in JSON format for easy readability and further processing.
+
+![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
   
 ##### Evaluation Criteria:
 - Code clarity and simplicity to ensure maintainability.
 - Correct implementation of moving average calculation to ensure accuracy.
 - Efficient use of Python’s standard libraries to optimize performance.
 
-![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
-
 ### 🌐 Task 2: Basic REST API Development
 ####Description:
 This task involves building a simple REST API using Flask that exposes two key endpoints.
 
+![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
+
 ##### Endpoints:
 - [GET] /data: Returns the processed machine data as JSON, allowing clients to retrieve the latest calculated metrics.
 - [POST] /status: Enables updating the machine's job status (e.g., “STARTED”, “COMPLETED”). This helps keep track of the machine's operational state.
+
+![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
   
 ##### Requirements:
 - Input validation for the /status endpoint to ensure only acceptable statuses are processed.
