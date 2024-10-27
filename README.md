@@ -26,7 +26,7 @@
 ```plaintext
 Ingestion-Api-Analytics-Task/
 ├── app.py                # Flask API server
-├── data_ingestion.py     # Data ingestion and processing
+├── ingestion.py     # Data ingestion and processing
 ├── analytics.py          # Data analytics functions
 ├── README.md             # Project documentation
 ├── requirements.txt      # Dependencies
