@@ -1,11 +1,10 @@
 # Ingestion-Api-Analytics-Task
-TASK 1 - DATA INGESTION &amp; PROCESSING
-TASK 2 - BASIC REST API DEVELOPMENT
-TASK 3 - SIMPLE DATA ANALYTICS
+###TASK 1 - DATA INGESTION &amp; PROCESSING
+###TASK 2 - BASIC REST API DEVELOPMENT
+###TASK 3 - SIMPLE DATA ANALYTICS
 
-## Overview
-
-**Ingestion-Api-Analytics-Task** is a Python-based project that involves three main tasks: data ingestion, REST API development, and data analytics. The project simulates machine data, processes it, and provides a REST API to interact with the data.
+##🔎 Overview
+Ingestion-Api-Analytics-Task is a Python-based project that simulates machine data ingestion, processing, and analysis. This project reads a continuous data stream, calculates moving averages, hosts a REST API to interact with processed data, and performs analytical calculations, including anomaly detection.
 
 ### Task 1: Data Ingestion & Processing
 
@@ -54,6 +53,17 @@ Detect anomalies where values deviate by more than 20% from the average.
 - Efficient, readable code.
 - Bonus points for handling anomaly detection.
 
+Ingestion-Api-Analytics-Task
+
+<sup>Figure: Machine data monitoring in action</sup>
+
+
+
+
+Key Features
+Simulated Data Ingestion: Reads and processes machine data every 10 seconds.
+REST API: Provides GET and POST endpoints for data access and status updates.
+Data Analytics: Calculates statistics like average, max, min, and detects anomalies.
 ---
 
 ## Installation
