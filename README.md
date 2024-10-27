@@ -6,6 +6,8 @@
 
 **Ingestion-Api-Analytics-Task** is a comprehensive Python project that simulates machine data ingestion, processing, and analysis. It reads data streams, computes moving averages, provides an API to interact with the data, and includes statistical analysis with anomaly detection.
 
+![fc71635c7f1b09ed30413f59bb749582](https://github.com/user-attachments/assets/3f9ca90e-187e-456a-8d66-d63b51aff854)
+
 ### 🔑 Key Features
 
 - **Simulated Data Ingestion**: Reads machine data every 10 seconds.
@@ -33,7 +35,7 @@
 ![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
 
 
-![fc71635c7f1b09ed30413f59bb749582](https://github.com/user-attachments/assets/3f9ca90e-187e-456a-8d66-d63b51aff854)
+
 
 
 
