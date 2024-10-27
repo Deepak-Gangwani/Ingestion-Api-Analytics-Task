@@ -79,24 +79,8 @@ This task involves building a simple REST API using Flask that exposes two key e
 - Proper input validation and error handling to enhance robustness.
 - Well-organized code to improve readability and maintainability.
 
-### 📈 Task 3: Simple Data Analytics
 
-#### Description:
-In this final task, a Python function is implemented to perform data analytics on the machine data. The function reads a list of timestamps and values (e.g., machine speed) and calculates various statistics.
-
-##### Calculations:
-- Average Value: Computes the average of the collected data over the entire period.
-- Maximum and Minimum Values: Identifies the peak and lowest readings for performance monitoring.
-  
-##### Bonus Feature:
-If time permits, the candidate can extend the function to detect anomalies—specifically, any values that deviate by more than 20% from the calculated average. This enhances the functionality by providing early warning indicators for potential issues.
-
-##### Evaluation Criteria:
-- Accuracy of calculations to ensure reliable data analytics.
-- Code efficiency and readability to facilitate future modifications.
-- Bonus points awarded for implementing anomaly detection, adding extra value to the solution.
-
-# 🛠️ Procedure to Run the Project of project of Task-1 and Task-2
+### 🛠️ Procedure to Run the Project of project of Task-1 and Task-2
 #### Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 - Python 3.x: Make sure you have Python installed. You can download it from the official Python website.
@@ -158,6 +142,81 @@ http://127.0.0.1:5000/
 http://127.0.0.1:5000/data
 http://127.0.0.1:5000/status
 ```
+
+#### Diagram Representation of deque
+Here's a simple diagram to illustrate how deque operates in the context of this code:
+
+```
+Initial State: (maxlen=5)
+---------------------------------
+|   |   |   |   |   |    (empty)
+---------------------------------
+Add: 30, 32, 31, 29
+---------------------------------
+| 30| 32| 31| 29|   |    
+---------------------------------
+Add: 35 (exceeds maxlen, removes 30)
+---------------------------------
+| 32| 31| 29| 35|   |    
+---------------------------------
+Add: 36 (exceeds maxlen, removes 32)
+---------------------------------
+| 31| 29| 35| 36|   |    
+---------------------------------
+
+```
+In this diagram:
+- The deque can hold a maximum of 5 items.
+- When a new item is added beyond this limit, the oldest item (leftmost) is removed automatically.
+- This allows efficient management of the last window_size readings for calculations.
+  
+Summary
+The deque in this code is crucial for managing the last few readings of temperature and speed efficiently, enabling quick calculations of moving averages while ensuring minimal memory overhead.
+
+
+### 📈 Task 3: Simple Data Analytics
+
+#### Description:
+In this final task, a Python function is implemented to perform data analytics on the machine data. The function reads a list of timestamps and values (e.g., machine speed) and calculates various statistics.
+
+##### Calculations:
+- Average Value: Computes the average of the collected data over the entire period.
+- Maximum and Minimum Values: Identifies the peak and lowest readings for performance monitoring.
+  
+##### Bonus Feature:
+If time permits, the candidate can extend the function to detect anomalies—specifically, any values that deviate by more than 20% from the calculated average. This enhances the functionality by providing early warning indicators for potential issues.
+
+##### Evaluation Criteria:
+- Accuracy of calculations to ensure reliable data analytics.
+- Code efficiency and readability to facilitate future modifications.
+- Bonus points awarded for implementing anomaly detection, adding extra value to the solution.
+
+
+To guide users on how to run the analytics.py script to see anomalies, minimum, and maximum values from the sample machine data, you can add the following instructions to your README file:
+
+### 📊 Running the Analytics Script of Task-3
+After processing the machine data with the ingestion script, you can run the analytics.py script to analyze the data for anomalies, minimum, and maximum values. Follow the steps below to execute the analytics script:
+
+##### Step-by-Step Instructions
+- Run the Analytics Script: In the terminal, while still in the project directory, execute the analytics.py script using the following command:
+- View the Output: After running the script, you will see the following results printed in the terminal:
+    -- Average Value: The mean value calculated from all readings.
+    -- Maximum Value: The highest value recorded in the dataset.
+    -- Minimum Value: The lowest value recorded in the dataset.
+    -- Anomalies: Any readings that deviate by more than 20% from the average value will be identified and displayed, based on the values you provide.
+  
+##### Example Output
+You can expect the output to look something like this in terminal while running the file:
+```
+{
+  "average": 32.4,
+  "max": 50,
+  "min": 29,
+  "anomalies": [50]
+}
+```
+
+
 ![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
 ![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
 ![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
