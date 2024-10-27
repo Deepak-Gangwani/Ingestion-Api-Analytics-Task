@@ -50,8 +50,6 @@ In this task, a Python script is developed to simulate the continuous stream of 
 - Data Reading: The script reads machine data at regular intervals (every 10 seconds).
 - Data Transformation: It calculates a moving average for each parameter over the last five readings, providing insights into the machine's performance.
 - Output Format: The transformed data is printed in JSON format for easy readability and further processing.
-
-![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
   
 ##### Evaluation Criteria:
 - Code clarity and simplicity to ensure maintainability.
@@ -67,8 +65,6 @@ This task involves building a simple REST API using Flask that exposes two key e
 ##### Endpoints:
 - [GET] /data: Returns the processed machine data as JSON, allowing clients to retrieve the latest calculated metrics.
 - [POST] /status: Enables updating the machine's job status (e.g., “STARTED”, “COMPLETED”). This helps keep track of the machine's operational state.
-
-![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
   
 ##### Requirements:
 - Input validation for the /status endpoint to ensure only acceptable statuses are processed.
@@ -86,6 +82,8 @@ Before you begin, ensure you have the following installed on your local machine:
 - Python 3.x: Make sure you have Python installed. You can download it from the official Python website.
 - pip: This package manager for Python should come with the Python installation.
 - Flask: A web framework for building the REST API. You can install it using pip.
+
+![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
   
 #### Step-by-Step Instructions
 - Clone the Repository: Clone this repository to your local machine using the following command:
