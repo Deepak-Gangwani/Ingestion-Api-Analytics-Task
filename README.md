@@ -3,7 +3,7 @@
 ###TASK 2 - BASIC REST API DEVELOPMENT
 ###TASK 3 - SIMPLE DATA ANALYTICS
 
-##🔎 Overview
+🔎 Overview
 Ingestion-Api-Analytics-Task is a Python-based project that simulates machine data ingestion, processing, and analysis. This project reads a continuous data stream, calculates moving averages, hosts a REST API to interact with processed data, and performs analytical calculations, including anomaly detection.
 
 ### Task 1: Data Ingestion & Processing
