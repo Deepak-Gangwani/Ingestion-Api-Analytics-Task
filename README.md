@@ -29,4 +29,7 @@ Ingestion-Api-Analytics-Task/
 ├── data_ingestion.py     # Data ingestion and processing
 ├── analytics.py          # Data analytics functions
 ├── README.md             # Project documentation
-└── requirements.txt      # Dependencies
+├── requirements.txt      # Dependencies
+└── templates/            # Folder for HTML templates
+    └── index.html        # Main HTML template file
+
