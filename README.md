@@ -3,11 +3,13 @@
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0.3-green) ![API](https://img.shields.io/badge/API-REST-orange) ![Data Processing](https://img.shields.io/badge/Data%20Processing-Ingestion-blueviolet)
 
 ![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
+![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
 ![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
 ![images](https://github.com/user-attachments/assets/63adfb89-9fde-4077-a2c8-66427d343b0e)
 ![fc71635c7f1b09ed30413f59bb749582](https://github.com/user-attachments/assets/3f9ca90e-187e-456a-8d66-d63b51aff854)
+![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
 
-![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
+
 
 
 <div align="center">
