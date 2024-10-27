@@ -59,7 +59,7 @@ In this task, a Python script is developed to simulate the continuous stream of 
 - Efficient use of Python’s standard libraries to optimize performance.
 
 ### 🌐 Task 2: Basic REST API Development
-####Description:
+#### Description:
 This task involves building a simple REST API using Flask that exposes two key endpoints.
 
 ![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
