@@ -16,28 +16,12 @@
 
 ---
 
-![1_ebmDMPXU9xqgwqdob0XbKQ-ezgif com-crop](https://github.com/user-attachments/assets/b0ff241a-9e49-4a05-b4ad-26a294fb7125)
-![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
-![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
-
 <div align="center">
     <img src="https://user-images.githubusercontent.com/your_username/machine-data-gif.gif" width="600" alt="Machine Data Monitoring in Action" />
     <p>Machine Data Monitoring - Ingestion & Analytics Workflow</p>
 </div>
 
 ---
-
-
-![images](https://github.com/user-attachments/assets/63adfb89-9fde-4077-a2c8-66427d343b0e)
-
-
-![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
-![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
-
-
-
-
-
 
 ## 🛠️ Project Structure
 
@@ -56,3 +40,15 @@ Ingestion-Api-Analytics-Task/
 
 ### 🧩 Task 1: Data Ingestion & Processing
 In ingestion.py, this script reads machine data every 10 seconds from a mocked endpoint or JSON file, computes a moving average over the last 5 readings, and displays the results in JSON format.
+
+
+![images](https://github.com/user-attachments/assets/63adfb89-9fde-4077-a2c8-66427d343b0e)
+
+
+![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
+![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
+
+
+![1_ebmDMPXU9xqgwqdob0XbKQ-ezgif com-crop](https://github.com/user-attachments/assets/b0ff241a-9e49-4a05-b4ad-26a294fb7125)
+![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
+![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
