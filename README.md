@@ -1,84 +1,32 @@
-# Ingestion-Api-Analytics-Task
-###TASK 1 - DATA INGESTION &amp; PROCESSING
-###TASK 2 - BASIC REST API DEVELOPMENT
-###TASK 3 - SIMPLE DATA ANALYTICS
+# Ingestion-Api-Analytics-Task 🌐
 
-🔎 Overview
-Ingestion-Api-Analytics-Task is a Python-based project that simulates machine data ingestion, processing, and analysis. This project reads a continuous data stream, calculates moving averages, hosts a REST API to interact with processed data, and performs analytical calculations, including anomaly detection.
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0.3-green) ![API](https://img.shields.io/badge/API-REST-orange) ![Data Processing](https://img.shields.io/badge/Data%20Processing-Ingestion-blueviolet)
 
-### Task 1: Data Ingestion & Processing
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/your_username/machine-data-gif.gif" width="600" alt="Machine Data Monitoring in Action" />
+    <p>Machine Data Monitoring - Ingestion & Analytics Workflow</p>
+</div>
 
-**Description:**  
-A Python script reads a continuous stream of simulated machine data (temperature, speed, and status). The script:
-
-- Reads data every 10 seconds from a JSON file or a mocked endpoint.
-- Calculates a moving average for each parameter over the last 5 readings.
-- Outputs the transformed data in JSON format.
-
-**Evaluation Criteria:**
-- Code clarity and simplicity.
-- Correct implementation of moving average calculation.
-- Efficient use of Python’s standard libraries.
-
-### Task 2: Basic REST API Development
-
-**Description:**  
-A simple REST API using Flask that includes two endpoints:
-
-- **GET** `/data`: Returns the processed machine data as JSON.
-- **POST** `/status`: Allows updating the machine’s job status (e.g., “STARTED”, “COMPLETED”).
-
-**Requirements:**
-- Input validation for `/status` to allow only specific statuses.
-- In-memory storage for machine status updates.
-
-**Evaluation Criteria:**
-- Ability to set up a basic Flask API.
-- Proper input validation and error handling.
-- Organized code structure.
-
-### Task 3: Simple Data Analytics
-
-**Description:**  
-A Python function that reads a list of timestamps and values (e.g., machine speed) and calculates:
-
-- The average value over the period.
-- The maximum and minimum values.
-
-**Bonus:**  
-Detect anomalies where values deviate by more than 20% from the average.
-
-**Evaluation Criteria:**
-- Accurate calculations.
-- Efficient, readable code.
-- Bonus points for handling anomaly detection.
-
-Ingestion-Api-Analytics-Task
-
-<sup>Figure: Machine data monitoring in action</sup>
-
-
-
-
-Key Features
-Simulated Data Ingestion: Reads and processes machine data every 10 seconds.
-REST API: Provides GET and POST endpoints for data access and status updates.
-Data Analytics: Calculates statistics like average, max, min, and detects anomalies.
 ---
 
-## Installation
+## 📖 Project Overview
 
-To set up and run **Ingestion-Api-Analytics-Task**, follow these steps:
+**Ingestion-Api-Analytics-Task** is a comprehensive Python project that simulates machine data ingestion, processing, and analysis. It reads data streams, computes moving averages, provides an API to interact with the data, and includes statistical analysis with anomaly detection.
 
-### Prerequisites
+### 🔑 Key Features
 
-- Python 3.6 or higher
-- `pip` package manager
+- **Simulated Data Ingestion**: Reads machine data every 10 seconds.
+- **REST API Endpoints**: Fetch processed data and update machine status.
+- **Data Analytics**: Provides insights like average, max, min, and anomaly detection.
 
-### Steps to Install
+---
 
-1. **Clone the Repository:**
+## 🛠️ Project Structure
 
-   ```bash
-   git clone https://github.com/yourusername/Ingestion-Api-Analytics-Task.git
-   cd Ingestion-Api-Analytics-Task
+```plaintext
+Ingestion-Api-Analytics-Task/
+├── app.py                # Flask API server
+├── data_ingestion.py     # Data ingestion and processing
+├── analytics.py          # Data analytics functions
+├── README.md             # Project documentation
+└── requirements.txt      # Dependencies
