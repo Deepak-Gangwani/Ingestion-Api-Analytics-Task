@@ -26,10 +26,15 @@
 ```plaintext
 Ingestion-Api-Analytics-Task/
 ├── app.py                # Flask API server
-├── ingestion.py     # Data ingestion and processing
+├── ingestion.py          # Data ingestion and processing
 ├── analytics.py          # Data analytics functions
 ├── README.md             # Project documentation
 ├── requirements.txt      # Dependencies
 └── templates/            # Folder for HTML templates
     └── index.html        # Main HTML template file
+```
 
+## 📝 Project Implementation
+
+### 🧩 Task 1: Data Ingestion & Processing
+In data_ingestion.py, this script reads machine data every 10 seconds from a mocked endpoint or JSON file, computes a moving average over the last 5 readings, and displays the results in JSON format.
