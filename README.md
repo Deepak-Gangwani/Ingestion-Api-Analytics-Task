@@ -28,6 +28,7 @@
 ```plaintext
 Ingestion-Api-Analytics-Task/
 ├── app.py                # Flask API server
+├── data.json             # Sample json file
 ├── ingestion.py          # Data ingestion and processing
 ├── analytics.py          # Data analytics functions
 ├── README.md             # Project documentation
@@ -48,7 +49,7 @@ In this task, a Python script is developed to simulate the continuous stream of 
 - Data Transformation: It calculates a moving average for each parameter over the last five readings, providing insights into the machine's performance.
 - Output Format: The transformed data is printed in JSON format for easy readability and further processing.
   
-#####Evaluation Criteria:
+##### Evaluation Criteria:
 - Code clarity and simplicity to ensure maintainability.
 - Correct implementation of moving average calculation to ensure accuracy.
 - Efficient use of Python’s standard libraries to optimize performance.
