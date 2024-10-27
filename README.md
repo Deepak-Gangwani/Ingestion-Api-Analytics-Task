@@ -76,7 +76,7 @@ This task involves building a simple REST API using Flask that exposes two key e
 - Well-organized code to improve readability and maintainability.
 
 
-### 🛠️ Procedure to Run the Project of project of Task-1 and Task-2
+### 🛠️ Procedure to Run the Project of Task-1 and Task-2
 #### Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 - Python 3.x: Make sure you have Python installed. You can download it from the official Python website.
@@ -177,12 +177,16 @@ The deque in this code is crucial for managing the last few readings of temperat
 #### Description:
 In this final task, a Python function is implemented to perform data analytics on the machine data. The function reads a list of timestamps and values (e.g., machine speed) and calculates various statistics.
 
+![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
+
 ##### Calculations:
 - Average Value: Computes the average of the collected data over the entire period.
 - Maximum and Minimum Values: Identifies the peak and lowest readings for performance monitoring.
   
 ##### Bonus Feature:
 If time permits, the candidate can extend the function to detect anomalies—specifically, any values that deviate by more than 20% from the calculated average. This enhances the functionality by providing early warning indicators for potential issues.
+
+![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
 
 ##### Evaluation Criteria:
 - Accuracy of calculations to ensure reliable data analytics.
@@ -202,6 +206,8 @@ After processing the machine data with the ingestion script, you can run the ana
     -- Maximum Value: The highest value recorded in the dataset.
     -- Minimum Value: The lowest value recorded in the dataset.
     -- Anomalies: Any readings that deviate by more than 20% from the average value will be identified and displayed, based on the values you provide.
+
+![1_ebmDMPXU9xqgwqdob0XbKQ-ezgif com-crop](https://github.com/user-attachments/assets/b0ff241a-9e49-4a05-b4ad-26a294fb7125)
   
 ##### Example Output
 You can expect the output to look something like this in terminal while running the file:
@@ -213,11 +219,6 @@ You can expect the output to look something like this in terminal while running 
   "anomalies": [50]
 }
 ```
-
-
-![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
-![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
-![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
 
 ## Contributing 🤝
 We welcome contributions from the community! Your input helps make this project better for everyone. To contribute, please follow these steps:
