@@ -38,8 +38,60 @@ Ingestion-Api-Analytics-Task/
 
 ## 📝 Project Implementation
 
-### 🧩 Task 1: Data Ingestion & Processing
-In ingestion.py, this script reads machine data every 10 seconds from a mocked endpoint or JSON file, computes a moving average over the last 5 readings, and displays the results in JSON format.
+### 🛠️ Task 1: Data Ingestion & Processing
+
+#### Description:
+In this task, a Python script is developed to simulate the continuous stream of machine data (including parameters such as temperature, speed, and status). The script is designed to read this data every 10 seconds from a specified JSON file or a mocked endpoint.
+
+###### Key Features:
+- Data Reading: The script reads machine data at regular intervals (every 10 seconds).
+- Data Transformation: It calculates a moving average for each parameter over the last five readings, providing insights into the machine's performance.
+- Output Format: The transformed data is printed in JSON format for easy readability and further processing.
+  
+#####Evaluation Criteria:
+- Code clarity and simplicity to ensure maintainability.
+- Correct implementation of moving average calculation to ensure accuracy.
+- Efficient use of Python’s standard libraries to optimize performance.
+
+![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
+
+### 🌐 Task 2: Basic REST API Development
+####Description:
+This task involves building a simple REST API using Flask that exposes two key endpoints.
+
+##### Endpoints:
+- [GET] /data: Returns the processed machine data as JSON, allowing clients to retrieve the latest calculated metrics.
+- [POST] /status: Enables updating the machine's job status (e.g., “STARTED”, “COMPLETED”). This helps keep track of the machine's operational state.
+  
+##### Requirements:
+- Input validation for the /status endpoint to ensure only acceptable statuses are processed.
+- Management of machine status updates in memory for quick access and manipulation.
+  
+##### Evaluation Criteria:
+- Ability to set up a basic Flask API structure.
+- Proper input validation and error handling to enhance robustness.
+- Well-organized code to improve readability and maintainability.
+
+### 📈 Task 3: Simple Data Analytics
+
+#### Description:
+In this final task, a Python function is implemented to perform data analytics on the machine data. The function reads a list of timestamps and values (e.g., machine speed) and calculates various statistics.
+
+##### Calculations:
+- Average Value: Computes the average of the collected data over the entire period.
+- Maximum and Minimum Values: Identifies the peak and lowest readings for performance monitoring.
+  
+##### Bonus Feature:
+If time permits, the candidate can extend the function to detect anomalies—specifically, any values that deviate by more than 20% from the calculated average. This enhances the functionality by providing early warning indicators for potential issues.
+
+##### Evaluation Criteria:
+- Accuracy of calculations to ensure reliable data analytics.
+- Code efficiency and readability to facilitate future modifications.
+- Bonus points awarded for implementing anomaly detection, adding extra value to the solution.
+  
+![RESTAPI](https://github.com/user-attachments/assets/78448e0b-d8ac-411b-98c5-2776d4b7f58e)
+![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
+![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
 
 ## Contributing 🤝
 We welcome contributions from the community! Your input helps make this project better for everyone. To contribute, please follow these steps:
