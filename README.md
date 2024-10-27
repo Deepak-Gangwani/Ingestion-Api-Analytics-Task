@@ -238,11 +238,3 @@ If you have any questions, issues, or suggestions regarding this project, feel f
 - Contact Us: You can also reach me directly at deepakgangwani512@gmail.com for any specific inquiries.
   
 #### Your feedback is valuable and helps us improve! Thank you for your support! ❤️
-
-
-![Machine-Data-Dashboard-ezgif com-crop](https://github.com/user-attachments/assets/42ea5018-5cfa-4241-9ecd-3406ffe4b4dc)
-![Analytics-image](https://github.com/user-attachments/assets/a96ab195-5b11-47a8-a547-f9f939376679)
-![outlier2](https://github.com/user-attachments/assets/040d077e-3939-4159-b9c9-59e1ef5e16df)
-![images](https://github.com/user-attachments/assets/63adfb89-9fde-4077-a2c8-66427d343b0e)
-
-
