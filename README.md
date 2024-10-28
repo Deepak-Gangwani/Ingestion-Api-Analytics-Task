@@ -220,6 +220,44 @@ You can expect the output to look something like this in terminal while running 
 }
 ```
 
+
+## Run The Project App Using Poetry Package Manager
+
+```
+1. **Install dependencies**:
+   ```shell
+   poetry install
+```
+2. Run the application:
+
+```
+poetry run python main.py
+```
+
+3. Add new dependencies:
+```
+poetry add flask requests statistics
+```
+
+4. Activate the environment:
+```
+poetry shell
+```
+
+5. Exit the environment:
+```
+exit
+```
+
+---
+yaml
+### Step 7: Finalize and Test
+1. Confirm everything works by cloning the repository on a separate machine or environment.
+2. Run `poetry install` to check if all dependencies and configurations are set up correctly.
+
+--- 
+####This setup allows anyone who clones the project to use Poetry for dependency management easily, ensuring a consistent environment across all development setups. Let me know if you need any further help!
+
 ## Contributing 🤝
 We welcome contributions from the community! Your input helps make this project better for everyone. To contribute, please follow these steps:
 - Create a Pull Request: Go to the original repository and click the “New Pull Request” button. 
